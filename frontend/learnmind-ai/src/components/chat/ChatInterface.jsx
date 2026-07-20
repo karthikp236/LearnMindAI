@@ -927,7 +927,7 @@ const ChatInterface = () => {
               />
               {speechSupported && (
                 <button
-                  type="button"
+                  type="button"c
                   onClick={toggleListening}
                   disabled={micStatus === "checking"}
                   className={`mb-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition disabled:opacity-50 ${
@@ -954,7 +954,7 @@ const ChatInterface = () => {
               </button>
             </div>
 
-            <div className="mt-2 flex items-center justify-between">
+    <div className="mt-2 flex flex-col items-center gap-1">
               <p className="text-[11px] text-slate-400">
                 Press <span className="font-semibold">Enter</span> to send ·
                 <span className="ml-1 font-semibold">Shift + Enter</span> for a new line.
